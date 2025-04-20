@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import ListaLivros from './ListaLivros';
+import ListaLivros from '../ListaLivros';
 
 //"it" substitui o termo "test"
 // it('renders learn react link', () => {

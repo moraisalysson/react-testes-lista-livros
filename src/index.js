@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ListaLivros from './ListaLivros';
 import reportWebVitals from './reportWebVitals';
+import ListaLivrosRender from './ListaLivrosRender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ListaLivros />
+    <ListaLivrosRender />
   </React.StrictMode>
 );
 
